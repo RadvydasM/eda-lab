@@ -25,8 +25,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "/opt/nodejs/sharp-utils": ["layers/sharp-utils/nodejs/sharp-utils"],
-      "/opt/*": ["shared/*"]
+      "/opt/nodejs/sharp-utils": [
+        "layers/sharp-utils/nodejs/sharp-utils"
+      ],
+      "/opt/*": [
+        "shared/*"
+      ]
     },
   },
   "exclude": [
